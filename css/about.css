@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+::-moz-selection {
+  background-color: #1abc9c;
+  color: #fff;
+}
+
+::selection {
+  background-color: #1abc9c;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+.container .left-side {
+  width: 60%;
+  background-color: #000;
+  border: 1px solid white;
+}
+.container .left-side .wrapper {
+  margin: 30px 20% 20px 20%;
+  width: 100%;
+}
+.container .left-side .wrapper .profile-image {
+  width: 200px;
+  height: 200px;
+  background-color: #000;
+  background: url("https://scontent-qro1-2.xx.fbcdn.net/v/t39.30808-6/269631393_4598331943575830_6080362776175221115_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeHhyIrmNUeHPCJUqL0EHHvyIb9r7-7U7IEhv2vv7tTsgWSXiCysv6ESuwwaSBuRA3blqg7PIfIAsD9jEdq-eYfA&_nc_ohc=6K2vA8DnIpsAX-0wm5o&_nc_ht=scontent-qro1-2.xx&oh=00_AT9E0wXKBZBSHGsFs8sg8uedZWGIyHLcmMulTmV_k0o6-g&oe=62BAF9F6");
+  background-size: cover;
+  border-radius: 50%;
+  vertical-align: center;
+  border: 5px solid #1abc9c;
+}
+.container .left-side .wrapper h1 {
+  padding: 20px 0;
+  font-size: 2.1em;
+ font-family: 'Poppins', sans-serif;
+  line-height: 1em;
+  position: relative;
+  color: #fff;
+}
+.container .left-side .wrapper h1:after {
+  content: "";
+  width: 140px;
+  height: 3px;
+  background-color: #1abc9c;
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+}
+.container .left-side .wrapper .contact {
+  display: flex;
+  padding: 30px 0 20px 0;
+}
+.container .left-side .wrapper .contact .contact-headings {
+  padding: 0px 40px 0 0;
+}
+.container .left-side .wrapper .contact .contact-headings ul {
+  list-style: none;
+}
+.container .left-side .wrapper .contact .contact-headings ul li {
+ font-family: 'Poppins', sans-serif;
+  font-size: 1em;
+  margin-bottom: 5px;
+  color: #fff;
+}
+.container .left-side .wrapper .contact .contact-details {
+  padding: 0px 0px 0 20px;
+}
+.container .left-side .wrapper .contact .contact-details ul {
+  list-style: none;
+}
+.container .left-side .wrapper .contact .contact-details ul li {
+ font-family: 'Poppins', sans-serif;
+  margin-bottom: 5px;
+  color: #dbdbdb;
+  font-weight: 100;
+  font-size: 1em;
+}
+.container .left-side .wrapper .contact .contact-details ul li a {
+  text-decoration: none;
+  color: #dbdbdb;
+}
+.container .left-side .wrapper .contact .contact-details ul li a:hover {
+  color: #dbdbdb;
+  text-decoration: underline;
+}
+.container .left-side .wrapper .about {
+  padding: 30px 0 20px 0;
+}
+.container .left-side .wrapper .about p {
+  width: 70%;
+  font-size: 1.2em;
+ font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  color: #cac7c7;
+  text-align: justify;
+  line-height: 1.7em;
+}
+.container .left-side .wrapper .about p span {
+  color: #fff;
+  font-weight: 400;
+}
+.container .left-side .wrapper .social-link {
+  padding: 30px 0 20px 0;
+  display: flex;
+  width: 100%;
+}
+.container .left-side .wrapper .social-link ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.container .left-side .wrapper .social-link ul li {
+  margin-right: 50px;
+}
+.container .left-side .wrapper .social-link ul li a {
+  font-size: 2em;
+  color: #fff;
+  transition: all 0.2s ease;
+}
+.container .left-side .wrapper .social-link ul li a .fa-facebook:hover {
+  color: #4267B2;
+}
+.container .left-side .wrapper .social-link ul li a .fa-twitter:hover {
+  color: #1B95E0;
+}
+.container .left-side .wrapper .social-link ul li a .fa-github:hover {
+  color: #333333;
+}
+.container .left-side .wrapper .social-link ul li a .fa-instagram:hover {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.container .left-side .wrapper .social-link ul li a .fa-codepen:hover {
+  color: #333333;
+}
+.container .right-side {
+  width: 100%;
+  background-color: #000;
+}
+.container .right-side .wrapper {
+  padding: 30px 20px 30px 60px;
+}
+.container .right-side .wrapper h3 {
+  color: #1abc9c;
+ font-family: 'Poppins', sans-serif;
+  font-size: 1.5em;
+  font-weight: 100;
+}
+.container .right-side .wrapper .exp-group {
+  display: flex;
+  padding: 20px 0;
+}
+.container .right-side .wrapper .exp-group .comp-name {
+  width: 50%;
+}
+.container .right-side .wrapper .exp-group .comp-name h4 {
+  color: #fff;
+ font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+.container .right-side .wrapper .exp-group .comp-name p {
+  color: #9099a0;
+  font-weight: 100;
+  font-size: 1em;
+ font-family: 'Poppins', sans-serif;
+}
+.container .right-side .wrapper .exp-group .job-desc {
+  margin-left: 15px;
+}
+.container .right-side .wrapper .exp-group .job-desc h4 {
+  color: #fff;
+ font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+.container .right-side .wrapper .exp-group .job-desc p {
+  color: #9099a0;
+  font-size: 1em;
+ font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+  width: 70%;
+  text-align: justify;
+}
+.container .right-side .wrapper .hobbie-skills {
+  display: flex;
+  padding: 40px 0;
+}
+.container .right-side .wrapper .hobbie-skills .skills {
+  width: 60%;
+}
+.container .right-side .wrapper .hobbie-skills .skills .skill-group h4 {
+  color: #fff;
+ font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+  padding: 10px 0 5px 0;
+}
+.container .right-side .wrapper .hobbie-skills .skills .skill-group .skill {
+  width: 80%;
+  height: 5px;
+  background-color: #2a2b2b;
+  overflow: hidden;
+}
+.container .right-side .wrapper .hobbie-skills .skills .skill-group .skill .skill-progress {
+  background-color: #bc1a32;
+  height: 100%;
+}
+.container .right-side .wrapper .hobbie-skills .hobbies {
+  width: 30%;
+}
+.container .right-side .wrapper .hobbie-skills .hobbies .hobbies-icon {
+  padding: 30px 0;
+}
+.container .right-side .wrapper .hobbie-skills .hobbies .hobbies-icon ul {
+  display: flex;
+  text-align: center;
+  list-style: none;
+}
+.container .right-side .wrapper .hobbie-skills .hobbies .hobbies-icon ul li {
+  color: #b9c5bc;
+  font-size: 1.7em;
+ font-family: 'Poppins', sans-serif;
+  margin-right: 20px;
+}
+
+.download {
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border-radius: 50%;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  top: 15px;
+  right: 15px;
+}
+.download a {
+  color: #fff;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+  }
+  .container .left-side {
+    width: 60%;
+    padding-left: 160px;
+  }
+
+  .download {
+    background-color: transparent;
+  }
+  .download a {
+    color: white;
+  }
+}
